@@ -25,6 +25,6 @@ class Waiter
     end
     
     def best_tipper
-        @max_tipper.keys[0]
+        self.max_tipper.keys[0]
     end
 end
